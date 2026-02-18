@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   // ВАЖНО: Этот путь должен в точности совпадать с названием вашего репозитория на GitHub
   // Например, если репозиторий https://github.com/User/EasyChemLearn, то base должен быть '/EasyChemLearn/'
-  base: '/EasyChemLearn/', 
+  base: "/", 
   build: {
     outDir: 'dist',
   },
